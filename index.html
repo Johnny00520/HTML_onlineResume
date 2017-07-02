@@ -9,9 +9,29 @@
       <!-- mobile version -->
       <!-- <link rel="stylesheet" href="screen.css" media="screen"/> -->
       <!-- <link rel="stylesheet" href="handheld.css" media="handheld"/> -->
+      <!--
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="/stylesheet/mobile.css" media="only screen and (max-width: 767px)" rel="stylesheet" type="text/css" />
+      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+        
+      <!--<meta name="description" content="An interactive getting started guide for Brackets.">-->
+        
+      <!-- Maybe I need. Note that Android and iOS ignore media="handheld"-->
+      <link rel="stylesheet" media="handheld, only screen and (max-device-width: 320px)" href="phone.css">
+      <link rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 800px)" href="ipad.css">
+        
+      <!-- media="handheld" trick for Windows Mobile -->
+      <link rel="stylesheet" href="screen.css" media="Screen">
+      <link rel="stylesheet" href="mobile.css" media="handheld">
+        
+      <!--smartphone conpatible-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+      <!-- Home screen icon -->
+      <link rel="apple-touch-icon" href="/static/images/identity/HTML5_Badge_64.png" />
+      <link rel="apple-touch-icon-precomposed" href="/static/images/identity/HTML5_Badge_64.png" />
 
   </head>
   <body>
