@@ -81,7 +81,7 @@ img.Leadership_Pic {
   width: 35%;
   height: 1625px;
   float: left;
-  margin-left: 50px;
+  margin-left: 25px;
   border-radius: 10px;
   z-index: -1;
   /*center the picture*/
@@ -97,7 +97,7 @@ img.Leadership_Pic {
   /*overflow: hidden;*/
   float: right;
   border-radius: 10px;
-  margin-right: 50px;
+  margin-right: 40px;
   background: rgb(255, 241, 254);
 }
 
