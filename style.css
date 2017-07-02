@@ -31,6 +31,7 @@ img.EmailPic {
   z-index: 2;
   border-radius: 50%;
   border: bold;
+  margin-left: -10px;
 }
 
 img.socialImage {
@@ -115,7 +116,7 @@ img.Leadership_Pic {
   background-color: #14213D;
   color: #FFF;
   border: 20px;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 a {
