@@ -7,6 +7,11 @@ body {
 * {
   bouder: solid;
   font-size: 14px;
+  color: green;
+}
+li b {
+    color: rgb(41, 128, 185);
+    color: hex(#2980B9);
 }
 
 img.Pic {
@@ -50,30 +55,35 @@ img.About_Pic {
   width: 4%;
   height: auto;
   margin-right: 5px;
+  margin-top: -4px;
 }
 
 img.Education_Pic {
   width: 4%;
   height: auto;
   margin-right: 5px;
+  margin-top: -3px;
 }
 
 img.Project_Pic {
   width: 4%;
   height: auto;
   margin-right: 5px;
+  margin-top: -3px;
 }
 
 img.Experience_Pic {
   width: 4%;
   height: auto;
   margin-right: 5px;
+  margin-top: -3px;
 }
 
 img.Leadership_Pic {
   width: 5%;
   height: auto;
   margin-right: 5px;
+  margin-top: -3px;
 }
 
 .Left_box {
@@ -81,7 +91,7 @@ img.Leadership_Pic {
   margin-bottom: 10px;
   background: rgb(255, 241, 254);
   width: 35%;
-  height: 1625px;
+  height: 1450px;
   float: left;
   margin-left: 25px;
   border-radius: 10px;
@@ -91,10 +101,10 @@ img.Leadership_Pic {
 }
 
 .Right_box {
-  position: relative;
+  /*position: relative;*/
   margin-bottom: 10px;
   width: 55%;
-  height: 1880px;
+  height: 1950px;
   /*Left and Right box attach tight together*/
   /*overflow: hidden;*/
   float: right;
@@ -137,13 +147,14 @@ li {
   font-family: Arial, sans-serif;
   line-height: 1.3em;
   font-style: italic;
-  color: #FFF;
+  color: rgb(255, 195, 0);
 }
 
 h1 {
   color: rgb(0, 0, 128);
   text-align: center;
   font-family: Times new roman, sans-serif;
+  font-size: 30px;
   /*border-style: solid;
   border-width: 0 0 1px 0;
   border-radius: 10px;*/
