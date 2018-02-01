@@ -104,7 +104,7 @@ img.Leadership_Pic {
   /*position: relative;*/
   margin-bottom: 10px;
   width: 55%;
-  height: 1950px;
+  height: 2100px;
   /*Left and Right box attach tight together*/
   /*overflow: hidden;*/
   float: right;
@@ -223,3 +223,11 @@ p {
   zoom: 1.0;
 }
 
+
+.LinkUrl {
+    font-size: 15px;
+}
+
+.detail {
+    color: black;
+}
